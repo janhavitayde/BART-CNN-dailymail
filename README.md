@@ -34,11 +34,9 @@ Model Evaluation: Evaluating the quality of generated summaries is a complex tas
 To evaluate the performance of our BART model for text summarization, we used the ROUGE (Recall-Oriented Understudy for Gisting Evaluation) metric. ROUGE scores measure the overlap between the generated summary and the reference summary in terms of n-gram matches, capturing recall, precision, and F1-score.
 
 Our model achieved the following ROUGE scores for a sample summary:
-
-ROUGE-1 Unigrams: 0.57
-ROUGE-2 Bigrams: 0.40
-ROUGE-L LCS: 0.51
-These scores indicate moderate performance in terms of capturing unigram and bigram overlaps with the reference summary. The ROUGE-L score, which considers the longest common subsequence, also indicates reasonable performance.
+<li>ROUGE-1 Unigrams: 0.57</li>
+<li>ROUGE-2 Bigrams: 0.40</li>
+<li>ROUGE-L LCS: 0.51</li>
 
 <h3>6. Potential Applications :</h3>
 
