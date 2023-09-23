@@ -32,7 +32,7 @@ Our model achieved the following ROUGE scores for a sample summary:
 
 <h3>5. Potential Applications :</h3>
 
-<li>News Aggregation: Summarizing news articles can help users quickly grasp the main points and decide which articles to read in-depth.</li>
-<li>Document Summarization: For large documents, automatic summarization can provide executive summaries or condensed versions, saving time and effort for readers.</li>
-<li>Information Extraction: Text summarization can aid in extracting key information from lengthy documents, such as legal texts or scientific papers.</li>
-<li>Chatbots and Virtual Assistants: Incorporating text summarization models can enhance chatbots and virtual assistants by generating concise responses based on user queries.</li>
+1. News Aggregation: Summarizing news articles can help users quickly grasp the main points.
+2. Document Summarization: For large documents, automatic summarization can provide executive summaries saving time for readers.
+3. Information Extraction: Text summarization can aid in extracting key information from lengthy documents, such as legal texts or scientific papers.
+4. Chatbots and Virtual Assistants: Incorporating text summarization models can enhance chatbots and virtual assistants by generating concise responses based on user queries.
