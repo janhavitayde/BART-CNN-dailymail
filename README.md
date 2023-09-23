@@ -6,11 +6,11 @@ Text summarization is a vital task in natural language processing (NLP) that aim
 
 <h3>2. Approach :</h3>
 
-<li>Dataset: We utilized the CNN/DailyMail dataset, which consists of news articles paired with human-written summaries.
-Data Preprocessing: We performed preprocessing steps such as removing non-alphanumeric characters, converting to lowercase, contraction mapping, tokenization, stop word removal, and lemmatization.</li>
-<li>BART Model: We employed the BART model, specifically the "facebook/bart-large-cnn" pre-trained model, which is designed for text summarization tasks.</li>
-<li>BART Tokenizer: We used the BART tokenizer to prepare the input data for the model, applying truncation and limiting the maximum length of the input text.</li>
-<li>Text Summarization: We developed a function to generate summaries using the BART model, employing techniques such as beam search, length penalty, and early stopping.</li>
+i. Dataset: We utilized the CNN/DailyMail dataset, which consists of news articles paired with human-written summaries.
+Data Preprocessing: We performed preprocessing steps such as removing non-alphanumeric characters, converting to lowercase, contraction mapping, tokenization, stop word removal, and lemmatization.
+ii. BART Model: We employed the BART model, specifically the "facebook/bart-large-cnn" pre-trained model, which is designed for text summarization tasks.
+iii. BART Tokenizer: We used the BART tokenizer to prepare the input data for the model, applying truncation and limiting the maximum length of the input text.
+iv. Text Summarization: We developed a function to generate summaries using the BART model, employing techniques such as beam search, length penalty, and early stopping.
 
 <h3>3. Techniques Used :</h3>
 
@@ -32,7 +32,7 @@ Our model achieved the following ROUGE scores for a sample summary:
 
 <h3>5. Potential Applications :</h3>
 
-1. News Aggregation: Summarizing news articles can help users quickly grasp the main points.
-2. Document Summarization: For large documents, automatic summarization can provide executive summaries saving time for readers.
-3. Information Extraction: Text summarization can aid in extracting key information from lengthy documents, such as legal texts or scientific papers.
-4. Chatbots and Virtual Assistants: Incorporating text summarization models can enhance chatbots and virtual assistants by generating concise responses based on user queries.
+i. News Aggregation: Summarizing news articles can help users quickly grasp the main points.
+ii. Document Summarization: For large documents, automatic summarization can provide executive summaries saving time for readers.
+iii. Information Extraction: Text summarization can aid in extracting key information from lengthy documents, such as legal texts or scientific papers.
+iv. Chatbots and Virtual Assistants: Incorporating text summarization models can enhance chatbots and virtual assistants by generating concise responses based on user queries.
