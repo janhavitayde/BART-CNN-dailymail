@@ -2,7 +2,7 @@
 
 Title: Text Summarization using BART Model
 
-1. Introduction :
+<h3> 1. Introduction : </h3>
 
 Text summarization is a vital task in natural language processing (NLP) that aims to condense large amounts of text into shorter summaries while preserving the key information. In this report, we present our approach to text summarization using the BART (Bidirectional and Auto-Regressive Transformers) model. We will discuss the techniques employed, challenges faced during implementation, and evaluate the model's performance using ROUGE scores. Additionally, we will explore potential applications of text summarization models like BART.
 
